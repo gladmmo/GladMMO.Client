@@ -414,18 +414,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 134547385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -337555452, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -738930597, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   _RegisterationKey: 2
   _UnityUIObject: {fileID: 134547387}
 --- !u!114 &134547391
@@ -912,18 +903,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 194660324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1946541008, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -36781664, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   _RegisterationKey: 4
   _UnityUIObject: {fileID: 194660328}
 --- !u!1 &242631020
@@ -6425,7 +6407,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 794925381}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2075791819, guid: 901f7cc4d66db2b4099709d0906f87cb, type: 3}
+  m_Script: {fileID: -424844001, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &794925383
@@ -6602,18 +6584,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 836178910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1367995591, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: 588340536, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   _RegisterationKey: 4
   _UnityUIObject: {fileID: 836178911}
 --- !u!1 &855699883
@@ -6626,9 +6599,8 @@ GameObject:
   m_Component:
   - component: {fileID: 855699889}
   - component: {fileID: 855699888}
-  - component: {fileID: 855699884}
   - component: {fileID: 855699885}
-  - component: {fileID: 855699886}
+  - component: {fileID: 855699884}
   m_Layer: 0
   m_Name: '[Sceneject]'
   m_TagString: Untagged
@@ -6645,19 +6617,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 855699883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 254390684, guid: 359692fe6c4b8cc45b1edee2b0d90c5c, type: 3}
+  m_Script: {fileID: -1871994734, guid: 980ba40c34f9da8409f5740782bfdc5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _OnSceneLoaded:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  _OnBeforeSceneChange:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  SceneType: 0
 --- !u!114 &855699885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6667,22 +6630,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 855699883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1933110458, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: 1825427406, guid: 980ba40c34f9da8409f5740782bfdc5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &855699886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855699883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 861766562, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneType: 0
 --- !u!114 &855699888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6696,7 +6646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TypePairs:
-  - behaviour: {fileID: 855699884}
+  - behaviour: {fileID: 0}
     ImplementedTypes:
     - PSOBB.ISceneManager, PSOBB.Client.Common, Version=1.0.0.0, Culture=neutral,
       PublicKeyToken=null
@@ -12017,18 +11967,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1032165486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -337555452, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -738930597, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   _RegisterationKey: 3
   _UnityUIObject: {fileID: 1032165488}
 --- !u!114 &1032165492
@@ -12860,7 +12801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5.5195312}
+  m_AnchoredPosition: {x: 0, y: -5.5195007}
   m_SizeDelta: {x: 0, y: 11.039999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145961850
@@ -18214,7 +18155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5.5195312}
+  m_AnchoredPosition: {x: 0, y: -5.5195007}
   m_SizeDelta: {x: 0, y: 11.039999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1397169546
