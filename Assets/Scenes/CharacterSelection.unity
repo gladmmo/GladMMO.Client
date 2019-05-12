@@ -122,8 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 108146068}
   - component: {fileID: 108146067}
-  - component: {fileID: 108146066}
   - component: {fileID: 108146069}
+  - component: {fileID: 108146066}
   m_Layer: 0
   m_Name: '[SceneJect]'
   m_TagString: Untagged
@@ -140,10 +140,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 108146065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 861766562, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -853591067, guid: 980ba40c34f9da8409f5740782bfdc5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneType: 2
 --- !u!114 &108146067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,10 +181,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 108146065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1019698424, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -1871994734, guid: 980ba40c34f9da8409f5740782bfdc5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ServiceDiscoveryUrl: http://192.168.0.3:5000
+  SceneType: 2
 --- !u!1 &224589243
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,19 +313,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 224589243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1614049575, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -1307879256, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _RegisterationKey: 0
+  _RegisterationKey: 9
   _UnityUIObject: {fileID: 224589245}
   _UnityUIObject2: {fileID: 295125012}
 --- !u!1 &295125010
@@ -421,17 +411,7 @@ MonoBehaviour:
   m_Script: {fileID: -4539896, guid: 986ac70759d2817438dfcf89880d9aa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _RegisterationKey: 3
-  _UnityUIObject: {fileID: 295125012}
+  m_Name: 
 --- !u!1 &442898475
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,19 +540,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 442898475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1614049575, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -1307879256, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _RegisterationKey: 0
+  _RegisterationKey: 9
   _UnityUIObject: {fileID: 442898477}
   _UnityUIObject2: {fileID: 1689454356}
 --- !u!1 &487010084
@@ -1133,47 +1104,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 889066844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1476859424, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: 108069711, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 1794220525}
-    - {fileID: 1536688592}
-    - {fileID: 224589248}
-    - {fileID: 442898480}
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: Elements
-      Entry: 7
-      Data: 0|PSOBB.IUILabeledButton[], PSOBB.Client.Game
-    - Name: 
-      Entry: 12
-      Data: 4
-    - Name: 
-      Entry: 10
-      Data: 0
-    - Name: 
-      Entry: 10
-      Data: 1
-    - Name: 
-      Entry: 10
-      Data: 2
-    - Name: 
-      Entry: 10
-      Data: 3
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
   _RegisterationKey: 9
+  _elements:
+  - {fileID: 1794220525}
+  - {fileID: 1536688592}
+  - {fileID: 224589248}
+  - {fileID: 442898480}
 --- !u!1 &1050693363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,7 +1336,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1153566529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2075791819, guid: 901f7cc4d66db2b4099709d0906f87cb, type: 3}
+  m_Script: {fileID: -424844001, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1153566531
@@ -1542,19 +1481,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1536688587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1614049575, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -1307879256, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _RegisterationKey: 0
+  _RegisterationKey: 9
   _UnityUIObject: {fileID: 1536688589}
   _UnityUIObject2: {fileID: 1905649812}
 --- !u!1 &1671553190
@@ -1807,17 +1737,7 @@ MonoBehaviour:
   m_Script: {fileID: -4539896, guid: 986ac70759d2817438dfcf89880d9aa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _RegisterationKey: 4
-  _UnityUIObject: {fileID: 1689454356}
+  m_Name: 
 --- !u!1 &1794220520
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,19 +1866,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1794220520}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1614049575, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Script: {fileID: -1307879256, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _RegisterationKey: 0
+  _RegisterationKey: 9
   _UnityUIObject: {fileID: 1794220522}
   _UnityUIObject2: {fileID: 1881431420}
 --- !u!1 &1881431418
@@ -2156,14 +2067,4 @@ MonoBehaviour:
   m_Script: {fileID: -4539896, guid: 986ac70759d2817438dfcf89880d9aa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _RegisterationKey: 2
-  _UnityUIObject: {fileID: 1905649812}
+  m_Name: 
