@@ -1320,7 +1320,6 @@
         "dependencies": {
           "GladMMO.Client.Game": "1.0.0",
           "Glader.Essentials.Unity": "0.0.7",
-          "Sirenix.OdinInspector.Attributes": "2.0.5.0",
           "UnityEditor": "0.0.0.0"
         },
         "runtime": {
@@ -1353,7 +1352,8 @@
           "SceneJect.Common": "3.0.31",
           "SceneJect.Metadata": "3.0.31",
           "System.Collections.Immutable": "1.5.0",
-          "Unitysync.Async": "1.0.15"
+          "Unitysync.Async": "1.0.15",
+          "UnityEngine": "0.0.0.0"
         },
         "runtime": {
           "GladMMO.Client.Game.dll": {}
@@ -1372,8 +1372,7 @@
         "dependencies": {
           "GladMMO.Client.Common": "1.0.0",
           "GladMMO.Models.ServiceDiscovery": "1.0.0",
-          "Refit": "4.6.58",
-          "UnityEngine": "0.0.0.0"
+          "Refit": "4.6.58"
         },
         "runtime": {
           "GladMMO.Client.ServiceDiscovery.dll": {}
@@ -1482,14 +1481,6 @@
           "UnityEngine.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Sirenix.OdinInspector.Attributes.Reference/2.0.5.0": {
-        "runtime": {
-          "Sirenix.OdinInspector.Attributes.dll": {
-            "assemblyVersion": "2.0.5.0",
-            "fileVersion": "2.0.5.0"
           }
         }
       },
@@ -2332,11 +2323,6 @@
       "sha512": ""
     },
     "UnityEngine.Reference/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Sirenix.OdinInspector.Attributes.Reference/2.0.5.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
