@@ -945,6 +945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2520027003963219846}
+  - component: {fileID: 2720866517219212469}
   m_Layer: 5
   m_Name: MainPlayerUnitFrame_Root
   m_TagString: Untagged
@@ -988,6 +989,25 @@ RectTransform:
   m_AnchoredPosition: {x: 130, y: -50}
   m_SizeDelta: {x: 256, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2720866517219212469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2520027003963219847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1856475539, guid: d907dcf9ecc63604c99839123d9a54c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _RegisterationKey: 1
+  HealthText: {fileID: 2520027002907787379}
+  HealthBarImage: {fileID: 2520027004482218982}
+  TechniquePointsText: {fileID: 2520027002556164415}
+  TechniquePointsBarImage: {fileID: 2520027002660522825}
+  PlayerNameText: {fileID: 8103647475881389423}
+  UnitLevelText: {fileID: 2520027004294716716}
 --- !u!1 &2520027004160216578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,7 +1099,7 @@ GameObject:
   - component: {fileID: 2520027004294716719}
   - component: {fileID: 2520027004294716716}
   m_Layer: 5
-  m_Name: Main_Level_Label
+  m_Name: Main_Level_Value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

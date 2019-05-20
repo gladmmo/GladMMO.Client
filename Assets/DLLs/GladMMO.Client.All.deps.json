@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "ab9b735028594894207b120498a99b2ca0cbc007"
+    "signature": "e528e34d79a8e646175618c213d06feb6a8b8824"
   },
   "compilationOptions": {},
   "targets": {
@@ -126,7 +126,7 @@
           }
         }
       },
-      "FreecraftCore.API.Common/4.0.3": {
+      "FreecraftCore.API.Common/4.0.10": {
         "dependencies": {
           "FreecraftCore.Serializer.Metadata": "3.0.38"
         },
@@ -137,9 +137,9 @@
           }
         }
       },
-      "FreecraftCore.API.Common.Addon/4.0.3": {
+      "FreecraftCore.API.Common.Addon/4.0.10": {
         "dependencies": {
-          "FreecraftCore.API.Common": "4.0.3",
+          "FreecraftCore.API.Common": "4.0.10",
           "FreecraftCore.Serializer.Metadata": "3.0.38"
         },
         "runtime": {
@@ -149,9 +149,9 @@
           }
         }
       },
-      "FreecraftCore.API.Common.Auth/4.0.3": {
+      "FreecraftCore.API.Common.Auth/4.0.10": {
         "dependencies": {
-          "FreecraftCore.API.Common": "4.0.3",
+          "FreecraftCore.API.Common": "4.0.10",
           "FreecraftCore.Serializer.Metadata": "3.0.38"
         },
         "runtime": {
@@ -161,9 +161,9 @@
           }
         }
       },
-      "FreecraftCore.API.Common.Character/4.0.3": {
+      "FreecraftCore.API.Common.Character/4.0.10": {
         "dependencies": {
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.3",
+          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
           "FreecraftCore.Serializer.Metadata": "3.0.38"
         },
         "runtime": {
@@ -173,9 +173,9 @@
           }
         }
       },
-      "FreecraftCore.API.Common.Chat/4.0.3": {
+      "FreecraftCore.API.Common.Chat/4.0.10": {
         "dependencies": {
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.3",
+          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
           "FreecraftCore.Serializer.Metadata": "3.0.38"
         },
         "runtime": {
@@ -185,11 +185,11 @@
           }
         }
       },
-      "FreecraftCore.API.Common.Core/4.0.3": {
+      "FreecraftCore.API.Common.Core/4.0.10": {
         "dependencies": {
-          "FreecraftCore.API.Common": "4.0.3",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.3",
-          "FreecraftCore.API.Common.Movement": "4.0.3",
+          "FreecraftCore.API.Common": "4.0.10",
+          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
+          "FreecraftCore.API.Common.Movement": "4.0.10",
           "FreecraftCore.Serializer.API": "3.0.38",
           "FreecraftCore.Serializer.Metadata": "3.0.38",
           "Reinterpret.Net": "2.0.7"
@@ -201,7 +201,7 @@
           }
         }
       },
-      "FreecraftCore.API.Common.Entity.Identity/4.0.3": {
+      "FreecraftCore.API.Common.Entity.Identity/4.0.10": {
         "dependencies": {
           "FreecraftCore.Serializer.API": "3.0.38",
           "FreecraftCore.Serializer.Metadata": "3.0.38"
@@ -213,7 +213,7 @@
           }
         }
       },
-      "FreecraftCore.API.Common.Movement/4.0.3": {
+      "FreecraftCore.API.Common.Movement/4.0.10": {
         "dependencies": {
           "FreecraftCore.Serializer.Metadata": "3.0.38"
         },
@@ -224,7 +224,7 @@
           }
         }
       },
-      "FreecraftCore.API.Common.Warden/4.0.3": {
+      "FreecraftCore.API.Common.Warden/4.0.10": {
         "dependencies": {
           "FreecraftCore.Serializer.Metadata": "3.0.38"
         },
@@ -235,10 +235,10 @@
           }
         }
       },
-      "FreecraftCore.Packet.Common/4.0.3": {
+      "FreecraftCore.Packet.Common/4.0.10": {
         "dependencies": {
-          "FreecraftCore.API.Common": "4.0.3",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.3",
+          "FreecraftCore.API.Common": "4.0.10",
+          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
           "FreecraftCore.Serializer.Metadata": "3.0.38"
         },
         "runtime": {
@@ -248,18 +248,18 @@
           }
         }
       },
-      "FreecraftCore.Packet.Game/4.0.3": {
+      "FreecraftCore.Packet.Game/4.0.10": {
         "dependencies": {
           "Castle.Core": "4.3.1",
-          "FreecraftCore.API.Common.Addon": "4.0.3",
-          "FreecraftCore.API.Common.Auth": "4.0.3",
-          "FreecraftCore.API.Common.Character": "4.0.3",
-          "FreecraftCore.API.Common.Chat": "4.0.3",
-          "FreecraftCore.API.Common.Core": "4.0.3",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.3",
-          "FreecraftCore.API.Common.Movement": "4.0.3",
-          "FreecraftCore.API.Common.Warden": "4.0.3",
-          "FreecraftCore.Packet.Common": "4.0.3",
+          "FreecraftCore.API.Common.Addon": "4.0.10",
+          "FreecraftCore.API.Common.Auth": "4.0.10",
+          "FreecraftCore.API.Common.Character": "4.0.10",
+          "FreecraftCore.API.Common.Chat": "4.0.10",
+          "FreecraftCore.API.Common.Core": "4.0.10",
+          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
+          "FreecraftCore.API.Common.Movement": "4.0.10",
+          "FreecraftCore.API.Common.Warden": "4.0.10",
+          "FreecraftCore.Packet.Common": "4.0.10",
           "FreecraftCore.Serializer.Metadata": "3.0.38",
           "GladNet3.Common.API": "3.0.46",
           "System.Reflection.Emit.ILGeneration": "4.3.0"
@@ -337,7 +337,7 @@
           }
         }
       },
-      "Glader.Essentials.Common/0.0.9": {
+      "Glader.Essentials.Common/0.0.12": {
         "dependencies": {
           "Autofac": "4.8.1",
           "Common.Logging": "3.4.1"
@@ -349,11 +349,11 @@
           }
         }
       },
-      "Glader.Essentials.Unity/0.0.9": {
+      "Glader.Essentials.Unity/0.0.12": {
         "dependencies": {
           "Common.Logging": "3.4.1",
           "Generic.Math": "1.0.2",
-          "Glader.Essentials.Common": "0.0.9",
+          "Glader.Essentials.Common": "0.0.12",
           "SceneJect.Common": "3.0.31",
           "SceneJect.Metadata": "3.0.31",
           "Unitysync.Async": "1.0.15"
@@ -1319,7 +1319,7 @@
       "GladMMO.Client.Editor/1.0.0": {
         "dependencies": {
           "GladMMO.Client.Game": "1.0.0",
-          "Glader.Essentials.Unity": "0.0.9",
+          "Glader.Essentials.Unity": "0.0.12",
           "UnityEditor": "0.0.0.0"
         },
         "runtime": {
@@ -1329,7 +1329,7 @@
       "GladMMO.Client.Game/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "4.2.2",
-          "FreecraftCore.Packet.Game": "4.0.3",
+          "FreecraftCore.Packet.Game": "4.0.10",
           "GladMMO.Client.Authentication": "1.0.0",
           "GladMMO.Client.Common": "1.0.0",
           "GladMMO.Client.ServerSelection": "1.0.0",
@@ -1345,14 +1345,15 @@
           "GladNet3.Handler.API": "3.0.46",
           "GladNet3.Serializer.FreecraftCore": "3.0.46",
           "GladNet3.Serializer.ProtobufNet": "3.0.46",
-          "Glader.Essentials.Unity": "0.0.9",
+          "Glader.Essentials.Unity": "0.0.12",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Nito.AsyncEx": "5.0.0-pre-05",
           "Refit": "4.6.58",
           "SceneJect.Common": "3.0.31",
           "SceneJect.Metadata": "3.0.31",
           "System.Collections.Immutable": "1.5.0",
-          "Unitysync.Async": "1.0.15"
+          "Unitysync.Async": "1.0.15",
+          "UnityEngine": "0.0.0.0"
         },
         "runtime": {
           "GladMMO.Client.Game.dll": {}
@@ -1380,7 +1381,7 @@
       "GladMMO.Common/1.0.0": {
         "dependencies": {
           "Common.Logging": "3.4.1",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.3",
+          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
           "Generic.Math": "1.0.2",
           "Newtonsoft.Json": "12.0.1",
           "Reinterpret.Net": "2.0.7",
@@ -1444,7 +1445,7 @@
         "dependencies": {
           "GladMMO.Common": "1.0.0",
           "GladNet3.Common.API": "3.0.46",
-          "Glader.Essentials.Common": "0.0.9",
+          "Glader.Essentials.Common": "0.0.12",
           "protobuf-net": "2.3.7"
         },
         "runtime": {
@@ -1460,9 +1461,9 @@
         "dependencies": {
           "Autofac": "4.8.1",
           "Common.Logging": "3.4.1",
+          "FreecraftCore.API.Common": "4.0.10",
           "GladMMO.Network.Common": "1.0.0",
-          "SceneJect.Metadata": "3.0.31",
-          "UnityEngine": "0.0.0.0"
+          "SceneJect.Metadata": "3.0.31"
         },
         "runtime": {
           "GladMMO.Unity.Common.dll": {}
@@ -1505,135 +1506,135 @@
     "Autofac/4.8.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GYRLxd2wCzhvee2u1vs3AbUbF4CHDWfD7BCNjD3Vxb4wxQz3HC8bPm9Sj9uOT0gE8a6PC2fx1zufmhLgxK+cZg==",
+      "sha512": "sha512-aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
       "path": "autofac/4.8.1",
       "hashPath": "autofac.4.8.1.nupkg.sha512"
     },
     "Autofac.Extensions.DependencyInjection/4.2.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1AVjDG9oodbPhvomrlahCHtjJ451eqdwiOwW9l/yRTiygjh7iGOIGJFPANU/65BLxzMp9XW/aSq90owFlaDdqw==",
+      "sha512": "sha512-nkspkD4qRKCvM1WG6bFLAuEwvbajEhEe7U3Q6XISCBEG6ZamOy52JACXnx3VumZksjPTylavkUZRzBBY7T2R+w==",
       "path": "autofac.extensions.dependencyinjection/4.2.2",
       "hashPath": "autofac.extensions.dependencyinjection.4.2.2.nupkg.sha512"
     },
     "Castle.Core/4.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Dx90A7xzdyYiaq1aMn3QmblpFAaVhDCiZkSblt96pf8QopOjLxCcs5ufKJA1zyg2L+Hxjnzx3JNrmfK8ZMRHvA==",
+      "sha512": "sha512-8Y/eTr6GTElAGV7eAmJuhfLhGdFpNvaNrQ9UQYDScziLmX+/BLGM+9eQr0IcdNDcPN0ADmbtwT6MgecGKy4obw==",
       "path": "castle.core/4.3.1",
       "hashPath": "castle.core.4.3.1.nupkg.sha512"
     },
     "Common.Logging/3.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B7mOrLAiALcadDoMzuKyMEYbdfLUUixeZVbBQqn1t0Oyolz7LaBC6OyVOC094S8XfOxx+RImYf7r9O5NcLhlug==",
+      "sha512": "sha512-5eZ/vgEOqzLg4PypZqnJ+wMhhgHyckicbZY4iDxqQ4FtOz0CpdYZ0xQ78aszMzeAJZiLLb5VdR9tPfunVQLz6g==",
       "path": "common.logging/3.4.1",
       "hashPath": "common.logging.3.4.1.nupkg.sha512"
     },
     "Common.Logging.Core/3.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6F/bYCvIZePJf7WeCqgMVCY9mvuM4VlKY+yZRqalsLddMQSqGp2lgs0yowObmNUlOsK7SxrX/cZrSLKSzwTEQw==",
+      "sha512": "sha512-wLHldZHvxsSD6Ahonfj00/SkfHfKqO+YT6jsUwVm8Rch1REL9IArHAcSLXxYxYfu5/4ydGtmXvOtaH3AkVPu0A==",
       "path": "common.logging.core/3.4.1",
       "hashPath": "common.logging.core.3.4.1.nupkg.sha512"
     },
     "DotNetZip/1.11.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wJwHi0PPu0AOTq90A6WrL7HC0jp6jwIxSRkWXDlmkD3EFJvnITcMmWVf+fdneZ+Utsa8MQSDrBaxDb8Kg9aRBQ==",
+      "sha512": "sha512-mwIUVhfuW9dJj4QEauDhVSf++pXs+IaILLwDUndyIbIBzwGE6RyoAGGDCuL6Wb3bDFSQW5Lh0mJDMkkZVVfJWQ==",
       "path": "dotnetzip/1.11.0",
       "hashPath": "dotnetzip.1.11.0.nupkg.sha512"
     },
     "Fasterflect.Netstandard/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wUeKGby2CdlrzMA/PE2m1ayEe90Kvz0JoxayzSEwSyZUSj6UFekiqCslGWzHEFOA/ldw956P+dux3xya9asYMQ==",
+      "sha512": "sha512-SnJrsEDDR0Ue6vCKdS/7Km1t6pEiowy/e0aSdbvp2If2vfiyt6yBMKBilfgf8RDT0I+NK8o/OLtNGFvs0QO/JA==",
       "path": "fasterflect.netstandard/1.0.9",
       "hashPath": "fasterflect.netstandard.1.0.9.nupkg.sha512"
     },
     "FluentValidation/7.6.103": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0PSBixEaXEl1698i/olrOLl+0ruUAwP0AwVndE0PNOh0MHkJvudJLmOLoSTh4U9kQx1bqNoT5E+AgvoXvvK94A==",
+      "sha512": "sha512-QmMkxUgd97IpWW+JQTeSeieqQkkUyqJEtJy+XchyYwF3AeKGo4eqU67erM33BifpF1BOcwGGuWyi2r88EZvDqA==",
       "path": "fluentvalidation/7.6.103",
       "hashPath": "fluentvalidation.7.6.103.nupkg.sha512"
     },
-    "FreecraftCore.API.Common/4.0.3": {
+    "FreecraftCore.API.Common/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-z1MjuQhP85J0ga3j5mw0GImM2LqvcUPs57kTBOOrpuJFH3CytGJ8to/lb/M7Ea6Qlg1rxn5Vmfck3G9vLyXoig==",
-      "path": "freecraftcore.api.common/4.0.3",
-      "hashPath": "freecraftcore.api.common.4.0.3.nupkg.sha512"
+      "sha512": "sha512-vlIKaK/J15xLv024Ike9On8tIYsaxIMz9Ro0JTKDwVvJ22LbZUw3kHl4qdx4VxYq+disgg+3bNtIve63NoeIfQ==",
+      "path": "freecraftcore.api.common/4.0.10",
+      "hashPath": "freecraftcore.api.common.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.API.Common.Addon/4.0.3": {
+    "FreecraftCore.API.Common.Addon/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CCbBYjohJ2aFku1Lu8YnLeaKiFohoTbr+eSEulg5VQyEVhqqvF6qVqHO2LNfzKKKUhBK8x3G7CdsKDe4NvGiSQ==",
-      "path": "freecraftcore.api.common.addon/4.0.3",
-      "hashPath": "freecraftcore.api.common.addon.4.0.3.nupkg.sha512"
+      "sha512": "sha512-GhSb68mMOYD8FMTKfrztHizPHVf2kMgV0MC9ep2XiliE4rghEK27qrVUC10OO7cpjPdja5Qxs6TD8g4L7Kw7Ng==",
+      "path": "freecraftcore.api.common.addon/4.0.10",
+      "hashPath": "freecraftcore.api.common.addon.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.API.Common.Auth/4.0.3": {
+    "FreecraftCore.API.Common.Auth/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Jup6R17t2JXA75IdA9sU9QukRHJh3lg++QUpLJLsQ34HEWOhApPXqSOEmeG2I9MKUZbusHzLjnN4OXzM3n83dw==",
-      "path": "freecraftcore.api.common.auth/4.0.3",
-      "hashPath": "freecraftcore.api.common.auth.4.0.3.nupkg.sha512"
+      "sha512": "sha512-fD7sHFUys+xfHdKkrV5gV59q1j3OXsgSBr2e6Qtt5slRSiLmYQE69+vgeys5aqBGCz/HQczqNRpSDfQrZczVyg==",
+      "path": "freecraftcore.api.common.auth/4.0.10",
+      "hashPath": "freecraftcore.api.common.auth.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.API.Common.Character/4.0.3": {
+    "FreecraftCore.API.Common.Character/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0krU0NH+KfmDq2aE0L7uWr7yd/bI970HhdPp8szcsxfIKqtZe5fPvIqLPfy0oBiuiQE/pZfmRjJxVBfug/h7Mg==",
-      "path": "freecraftcore.api.common.character/4.0.3",
-      "hashPath": "freecraftcore.api.common.character.4.0.3.nupkg.sha512"
+      "sha512": "sha512-bAap7vCRxUVGxwJ+UNU9zyIGr7PKDRzW5W/aIq9160FN5Jq4zB/s0M+S1bE4KQ1j7OU2qg9p5ret2ZSs15oIjA==",
+      "path": "freecraftcore.api.common.character/4.0.10",
+      "hashPath": "freecraftcore.api.common.character.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.API.Common.Chat/4.0.3": {
+    "FreecraftCore.API.Common.Chat/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-orcNpBRGq32fOMTBVC1ohCxuQ7ouXUP6VpYTlia+zTiuceNSorzU81oRvtGr1cyBezc3+TytqRfP7SpfHr/88g==",
-      "path": "freecraftcore.api.common.chat/4.0.3",
-      "hashPath": "freecraftcore.api.common.chat.4.0.3.nupkg.sha512"
+      "sha512": "sha512-P6UGjwdqi1qbG6wz5ApztFHhd1lPTPE6sbi1qnTrnbuSAYSdiWKhftYRj556IWquET4lO4sYscPl5RSlQ7/KQw==",
+      "path": "freecraftcore.api.common.chat/4.0.10",
+      "hashPath": "freecraftcore.api.common.chat.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.API.Common.Core/4.0.3": {
+    "FreecraftCore.API.Common.Core/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uv6h7aosDBpiVt1MP/CPu19zvUMLqWG+UxEg6XNBj9WYcwXF73S+vgL2wXp2ZoPi6AfXnaKWObjiAT11YVQ5uQ==",
-      "path": "freecraftcore.api.common.core/4.0.3",
-      "hashPath": "freecraftcore.api.common.core.4.0.3.nupkg.sha512"
+      "sha512": "sha512-Vl96yTo0rg3rCnTHDtFgK43asUBrXB1ZAHzdWGtvY8ICBGxvdXrC0euGQTQxMAsyCaABj0wzEOgBE0vUPT4Sfg==",
+      "path": "freecraftcore.api.common.core/4.0.10",
+      "hashPath": "freecraftcore.api.common.core.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.API.Common.Entity.Identity/4.0.3": {
+    "FreecraftCore.API.Common.Entity.Identity/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YO0n1TE4TVfOhrytdyEvvX8RmtXdJu8aps9lAhOG4MN6lN2caC9HxAnggfMdpm0MlcX6tQS4FqSg0IqX7Vf4Zg==",
-      "path": "freecraftcore.api.common.entity.identity/4.0.3",
-      "hashPath": "freecraftcore.api.common.entity.identity.4.0.3.nupkg.sha512"
+      "sha512": "sha512-/MWEuth7Vgh2z3XBSP1dvh2vZn0fXf01PulzGgwwL0c23gxfZy/gbX1H2uXYX5TKSauilKbR5fM4YHBiAnWB6Q==",
+      "path": "freecraftcore.api.common.entity.identity/4.0.10",
+      "hashPath": "freecraftcore.api.common.entity.identity.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.API.Common.Movement/4.0.3": {
+    "FreecraftCore.API.Common.Movement/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2+aNNeIesxHdPflyPulrfEq7yPVKOu4b22T59DpE1V+eXX9L8hNry2l8NKebt7UjQ7JMPc76gKVQwXGKAMPx9A==",
-      "path": "freecraftcore.api.common.movement/4.0.3",
-      "hashPath": "freecraftcore.api.common.movement.4.0.3.nupkg.sha512"
+      "sha512": "sha512-qfO/3G+SL1NNc4Pg/FjUHgcAR0n2NBLhQ7dW+WEaLg8wKrOvIvenAMeI6MRmijh00ecWBnnet6JkNvKOY/rU5g==",
+      "path": "freecraftcore.api.common.movement/4.0.10",
+      "hashPath": "freecraftcore.api.common.movement.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.API.Common.Warden/4.0.3": {
+    "FreecraftCore.API.Common.Warden/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ajdo4FFVH/pXoFod5eNXSxr8o9zdFbqoadAxFJ7zXzW1tauk/wE7UWheg7ft4N12RpVwkaTw1+idwyoDTg7JwA==",
-      "path": "freecraftcore.api.common.warden/4.0.3",
-      "hashPath": "freecraftcore.api.common.warden.4.0.3.nupkg.sha512"
+      "sha512": "sha512-3569AK6haDkHEJ4COI/QdNkK99nRDCudZXHiBHbBvtxjjCSrilXhALmwP22NvGXuUCyijt1DTGaQMDRB+Xvbjg==",
+      "path": "freecraftcore.api.common.warden/4.0.10",
+      "hashPath": "freecraftcore.api.common.warden.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.Packet.Common/4.0.3": {
+    "FreecraftCore.Packet.Common/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GV7ziBe816k/HA7n5pNGtJw3hzxhzVegS1Prg5KhS1M1CoENUF6I3lq1tGCltGDQb5v6qX6Hb2nZwvrPZrLbkg==",
-      "path": "freecraftcore.packet.common/4.0.3",
-      "hashPath": "freecraftcore.packet.common.4.0.3.nupkg.sha512"
+      "sha512": "sha512-zQFXKQrtsmSek6Ppw73V0l9h3OiVZxh25Cikx5a7Fafv2Up1iSflnJJQ1Becy/HBDt09ZIRZxoZoG3d2te3qRg==",
+      "path": "freecraftcore.packet.common/4.0.10",
+      "hashPath": "freecraftcore.packet.common.4.0.10.nupkg.sha512"
     },
-    "FreecraftCore.Packet.Game/4.0.3": {
+    "FreecraftCore.Packet.Game/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0luBGVuUK7R7lR2n3QICDWpYae1PY9Ni625Xx+vdwgDzvVx0i1XCSaEXAtI3weVtYUydMYkHwklUrga8+QcInw==",
-      "path": "freecraftcore.packet.game/4.0.3",
-      "hashPath": "freecraftcore.packet.game.4.0.3.nupkg.sha512"
+      "sha512": "sha512-Q4MEj5Tb4fLJeUgenOk06qnU5sno67ZEZFibUlhPg1Y2GuKFCL024QF2/B15I6gfn4K4HYkAYkAeL9YKzvEYiA==",
+      "path": "freecraftcore.packet.game/4.0.10",
+      "hashPath": "freecraftcore.packet.game.4.0.10.nupkg.sha512"
     },
     "FreecraftCore.Serializer/3.0.38": {
       "type": "package",
@@ -1666,84 +1667,84 @@
     "Generic.Math/1.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AGypOOQWzoFpMHPL1PW9HrRtxsKIo8JRjlF9h7sb8hvAJdnd4JKclpBiXaKQKFBPL4oDKCoJ9Uc3kWiSZl2sDg==",
+      "sha512": "sha512-AXDcisBojb3X53gS0eLoI3xTo9ZFOgjDQ9qG7JjMRh75zMZipk8xGn80Xn/prhLhuJM0yQE1zK35j46565AwzQ==",
       "path": "generic.math/1.0.2",
       "hashPath": "generic.math.1.0.2.nupkg.sha512"
     },
-    "Glader.Essentials.Common/0.0.9": {
+    "Glader.Essentials.Common/0.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E1Jzxi2QNPcyEaNkaOTSEzm/UfBuxD9VAjbA8Au4assxamkovpVfIHUSuoDoW3+O9cXVRutlv9PhGJ/1NL6Itw==",
-      "path": "glader.essentials.common/0.0.9",
-      "hashPath": "glader.essentials.common.0.0.9.nupkg.sha512"
+      "sha512": "sha512-ntpoRaqDkIL9AJCWZa0QAqBTzBNViBFBlF4KqFfRQIduHtJXFKaCPwHmwprMUmSwcjlqPWRatbF/JGbWcMt/PA==",
+      "path": "glader.essentials.common/0.0.12",
+      "hashPath": "glader.essentials.common.0.0.12.nupkg.sha512"
     },
-    "Glader.Essentials.Unity/0.0.9": {
+    "Glader.Essentials.Unity/0.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qfTjyXqaN+4GV+LEEN8bFKarJ00KeQ2li+q+r+uHVKZIzDfI4nRfMpLh3Qa2rvt6an7XLAfVVRhGq1Kfv3OLig==",
-      "path": "glader.essentials.unity/0.0.9",
-      "hashPath": "glader.essentials.unity.0.0.9.nupkg.sha512"
+      "sha512": "sha512-YbfukwM8FexsmywtL8ezuQPpk79x82jwNnN+vvptMrJKwz0eOmn8Kb5NArzRpuPcpXvT36ON5Vx0v42XVMgfJQ==",
+      "path": "glader.essentials.unity/0.0.12",
+      "hashPath": "glader.essentials.unity.0.0.12.nupkg.sha512"
     },
     "GladNet3.Client.API/3.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0ytBkPx7p5up+Xl0DTdWmMsuwR7kvfWp4/IcoPp/iUOD0p6LjccT9OP0sorc2wOzz/rMAMIX6GMWaBcFhnaJGQ==",
+      "sha512": "sha512-HJ2KwlKAGLxWPRSDZH9xPXTA6fPdnSMAewOGgYeYIeIVaUSAzmXLB5G8kanolDN+Z84h1EYEiPJiYTIZC9ZKDQ==",
       "path": "gladnet3.client.api/3.0.46",
       "hashPath": "gladnet3.client.api.3.0.46.nupkg.sha512"
     },
     "GladNet3.Client.DotNetTcpClient/3.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DGcn3BRGXyaQuD/8H+LkVhy5UL7sNTgCCkJnIkBKmk+pfDH5pre+7mVe6F04+XtN0L5kR9XBY6vKnkcYf11xBQ==",
+      "sha512": "sha512-n0fp11dRNqM+qUVos2CkCFDqqlV1T5Q0VWer0qhMGIbBHTxvYgpy3jk/99bdfSSR6rgpnrHVa24u3cWprrBl5Q==",
       "path": "gladnet3.client.dotnettcpclient/3.0.46",
       "hashPath": "gladnet3.client.dotnettcpclient.3.0.46.nupkg.sha512"
     },
     "GladNet3.Common.API/3.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Xkob8E8PQNTu4eNbsEHcKOrs+8A7OLOdcx3XUVS7Vtfwjr8QApkx7FENTPLcf4/ES0R6SY8OA4lqQSUpcYQHIQ==",
+      "sha512": "sha512-xl3nbOKPuaEDjKNeYHplbHUY4+vSdl9FIprYWSp96VT1iBKXCOjWLeuKB+lX4uVnGxnRwBf12JruXBPGh/drbQ==",
       "path": "gladnet3.common.api/3.0.46",
       "hashPath": "gladnet3.common.api.3.0.46.nupkg.sha512"
     },
     "GladNet3.Crypto.API/3.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1xLBIwjUrHZVVUhmsSlxckD72Pnh6mMKcKZKXc3YrJZ0GQ29B0ZGHDioGzilj60/NsPBOvG8UIB0vfU2sD8FIQ==",
+      "sha512": "sha512-RxcYfm84VuXQzoYvdxgUIO3QgIteY6CXD3BpD1lFkvunHwuAScyz+6rY2CzTTPgO4UdM8Y/0mGMMnfUc2CIDLQ==",
       "path": "gladnet3.crypto.api/3.0.46",
       "hashPath": "gladnet3.crypto.api.3.0.46.nupkg.sha512"
     },
     "GladNet3.Handler.API/3.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jAw7v8N3HsBchOvvO2uPCHBjz4O07bTOA+cWsYuTXyKBEiWYQtTvoQEFHbSC+kWilQsOC2JCLvCt+R5kHhjsBg==",
+      "sha512": "sha512-Y/pF+E2KfQuNAwOArZkPauigjrpbXqgZspkLFWrXroevEj2se17sCPxkLiBIUI7QZYSWjbETUoEkf88xqGFIBA==",
       "path": "gladnet3.handler.api/3.0.46",
       "hashPath": "gladnet3.handler.api.3.0.46.nupkg.sha512"
     },
     "GladNet3.Serializer.API/3.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DCaxCQw3/t21RpWHWML6gTpbsZfCDUl5hYrLs13nMRUaMvFp/qqrhYaVHNDDggj6H2zkix7VUJhR/Mwb0LFKbQ==",
+      "sha512": "sha512-3g3j3RV6RrBK5SWjTdk/Xcocvdjq7DVub2tbJeA8qZZaF2PmlGtMgekdK7hlromPvGJSyI5wv3VtdpyHgaPwHQ==",
       "path": "gladnet3.serializer.api/3.0.46",
       "hashPath": "gladnet3.serializer.api.3.0.46.nupkg.sha512"
     },
     "GladNet3.Serializer.FreecraftCore/3.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-n6sW1qr7hRtoPZws7Q2K0OTMPfA7K6xTk8vZgtqX56acSBnbR3LnIH7ancS7brhxHZ1FSA5OA+GiDWmTv/MFvA==",
+      "sha512": "sha512-2YS883Z+lI5XF3jaPW+9+pDMu5HJzLjiMPRvnL0F41dQEL0wKwcja8BIunfuRvBhZbhpb64bNr/FszOZolSMWQ==",
       "path": "gladnet3.serializer.freecraftcore/3.0.46",
       "hashPath": "gladnet3.serializer.freecraftcore.3.0.46.nupkg.sha512"
     },
     "GladNet3.Serializer.ProtobufNet/3.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8QLllxILwpVYFigAl7cL49CX2nXIv2nmKyPSNkBUBhoip+0umoR/cjDBpJAhMPu40gwJLG1KiZ9bajEfs5XVUA==",
+      "sha512": "sha512-SlF1v4wgO5Ldb67cQzD/DEnJR8PEKIS4Clr74j2nOB0ep1zdp5wwDzmWuLBAODZ287RdbNplBeyxsQ8rhZzadw==",
       "path": "gladnet3.serializer.protobufnet/3.0.46",
       "hashPath": "gladnet3.serializer.protobufnet.3.0.46.nupkg.sha512"
     },
     "JetBrains.Annotations/11.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0xxJi7UMrUA+r+KjS8KIzerWBiAhbgb5cZpvE8rultYO/ZAqrwd2bGJhDeHg/oaEkshvazcOme1D0DNWWDuCDw==",
+      "sha512": "sha512-umU4AjekbwDeUaAmzThW9m2e1u1VYL2WAcp85CnyI7QDl9EFI547dh9XRKb8ogY+1uGLxOOksQu1T+ADkQOccA==",
       "path": "jetbrains.annotations/11.1.0",
       "hashPath": "jetbrains.annotations.11.1.0.nupkg.sha512"
     },
@@ -1757,14 +1758,14 @@
     "Microsoft.Extensions.DependencyInjection/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ASF77AJjnyi9hL7IJU1KCAvnCTgI3JEwkU+D4gnKd53nFIYpibVjR6SW8tdTkkuZ+QkmIx2rPvKdTMNVPfVU9A==",
+      "sha512": "sha512-MZtBIwfDFork5vfjpJdG5g8wuJFt7d/y3LOSVVtDK/76wlbtz6cjltfKHqLx2TKVqTj5/c41t77m1+h20zqtPA==",
       "path": "microsoft.extensions.dependencyinjection/2.2.0",
       "hashPath": "microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2xMk9LHz1EY+7gVG0lG4qBvkUiVjg8QNPqd2HYmEP5+PL7Ayo96EhBieAhd++Gx4yM+xN8kNqmhZdFMBHeG0HQ==",
+      "sha512": "sha512-f9hstgjVmr6rmrfGSpfsVOl2irKAgr1QjrSi3FgnS7kulxband50f2brRLwySAQTADPZeTdow0mpSMcoAdadCw==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512"
     },
@@ -1792,98 +1793,98 @@
     "Newtonsoft.Json/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
     "Nito.AsyncEx/5.0.0-pre-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-n10w8lEheouX4mJGESOX1+Lfg0aJkgI2m9EmAcLUKdtQb79Cm5eeSqxQczGM7MFShYr8F1DJHmVCvFfWNTN6yg==",
+      "sha512": "sha512-lpL0D5AWEMpzXso6kEY/fRi4oWZA9qKH7x1RC2wfZNOvcN2sNyQ7qaxFYAhlikwb2UZ32O0uH4zrZrebesmGYA==",
       "path": "nito.asyncex/5.0.0-pre-05",
       "hashPath": "nito.asyncex.5.0.0-pre-05.nupkg.sha512"
     },
     "Nito.AsyncEx.Context/5.0.0-pre-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sndH2gzkLJAH/L8Br9vAnLSCDLImpygaDMZDRsuvAyItruuRHZhl9YDwiUJ+RLqx1stUuQKOE9KzI8iGAfea+w==",
+      "sha512": "sha512-MdNp/jODQmaN3jkNVkUhBidR3HRb+0yZ/zLV9mfw45foqGeHtP521SK68uGgW7PeYY++aq0DG/CFAjTSg0sQAg==",
       "path": "nito.asyncex.context/5.0.0-pre-05",
       "hashPath": "nito.asyncex.context.5.0.0-pre-05.nupkg.sha512"
     },
     "Nito.AsyncEx.Coordination/5.0.0-pre-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3xYbIgfqItnlDjg+DwHyV6w5Cbne1BOINHKRwYdGvmlyuQFZRNPB0VgEjSha7O8/58FiP5JpGgLAH6ij7FAXdA==",
+      "sha512": "sha512-s/0H6x5qq672htRDm0siUPJ2wI4K8T7PEDO8vKHwPE4Osm1vAthu+O3NmHmkELgyhgu41+/ark9KVXxx1ek7jw==",
       "path": "nito.asyncex.coordination/5.0.0-pre-05",
       "hashPath": "nito.asyncex.coordination.5.0.0-pre-05.nupkg.sha512"
     },
     "Nito.AsyncEx.Interop.WaitHandles/5.0.0-pre-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-c4dF32ojafTo/7qGEVI2VvGx0pC/CUtU70oC4+nAoq/sKfr2qmgRDej5APFB1qdFsbToBawgtZwxyvClptToZQ==",
+      "sha512": "sha512-4jmi+6x/do4GdpRb2v9EFCbX9llm5mGvyzuUnhdbO1vecVVfzIPNNXfBGn66j32i8MllEUSLUXzSRKpVMN6afQ==",
       "path": "nito.asyncex.interop.waithandles/5.0.0-pre-05",
       "hashPath": "nito.asyncex.interop.waithandles.5.0.0-pre-05.nupkg.sha512"
     },
     "Nito.AsyncEx.Oop/5.0.0-pre-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4ZN4NJEpG28lyo7rDR9WS9ZW9XXVh5VLsGRTL1jFk/FS+bxguaMnySU45MKY7TycLryhiqNDPrzAyKQrbTPp1g==",
+      "sha512": "sha512-2c/a1tk7gzf6KmTO+ET9Yl1RV+08hSQDskmb+BPUNfkqVQgIJ9lffjzyqCba6O9Z1yKbOaLUDJV4NSzx4ELGDQ==",
       "path": "nito.asyncex.oop/5.0.0-pre-05",
       "hashPath": "nito.asyncex.oop.5.0.0-pre-05.nupkg.sha512"
     },
     "Nito.AsyncEx.Tasks/5.0.0-pre-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8qgDXbE44Dl8Z0jahYrIVuFCnV/WO9LGDaOG+iu6dqnTRGP8ppcgpE8CpPiYVrOlsj5nruESa+rBbZzSvXAxog==",
+      "sha512": "sha512-o+yW16mhbUMK4u036AHfe7dMx+NiEEyxStvDWxftHxVp/ulXhm2heRyQsPXwWq6V8/x09QCU623iRif2FfNY8Q==",
       "path": "nito.asyncex.tasks/5.0.0-pre-05",
       "hashPath": "nito.asyncex.tasks.5.0.0-pre-05.nupkg.sha512"
     },
     "Nito.Cancellation/1.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8bpLiLDvBf/zPjwLW5CQllUhMBrrG7A5uDKdre/Y2rHRmIea7+CiNztsa4Hp0/2JHIfyIBWWeGYnX/5TgAY2ww==",
+      "sha512": "sha512-fMEWb8yT8Qs6dwBNsnnQlKPj0KyCywOR5a6nnt6Y9fC645KNUjee7iYJVQlZrDdJgCiRF4C/k5FGGhuM67anpA==",
       "path": "nito.cancellation/1.0.4",
       "hashPath": "nito.cancellation.1.0.4.nupkg.sha512"
     },
     "Nito.Collections.Deque/1.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9Ek7LWxWuM1l6DRchMqeoJXMOz+6lHu8OTDO0yMGIYfiN2kvoPjfXHDTxJTd2B+HOUay0yQVUVAwPgoHMO72vQ==",
+      "sha512": "sha512-yGDKqCQ61i97MyfEUYG6+ln5vxpx11uA5M9+VV9B7stticbFm19YMI/G9w4AFYVBj5PbPi138P8IovkMFAL0Aw==",
       "path": "nito.collections.deque/1.0.4",
       "hashPath": "nito.collections.deque.1.0.4.nupkg.sha512"
     },
     "Nito.Disposables/1.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KgoP61QsQz5ZBUvVggTivYqvauhA8NGAcL8PQuharHI5Er41tVfdDwZdVmiUdakuoD+oQfYriCcyQtHfdVkKfQ==",
+      "sha512": "sha512-fFB73Rw/+/X6ghm+4kilO5wKxqy7bZChvIBieX2Kt5Zv3jLLkZWaEFdiFLVF0LBR8t4EXTF/qhMUsiBCZX/GOQ==",
       "path": "nito.disposables/1.2.3",
       "hashPath": "nito.disposables.1.2.3.nupkg.sha512"
     },
     "protobuf-net/2.3.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8ylltHyPjGUs0Kna9Qxn3NfeEeRH+zU2FkFr+Wf8IQEd3y1P0QP3Jg4BPlUIOKsSEjNHa+les6VlIxr6WvxKFw==",
+      "sha512": "sha512-JG5ZUd42w4osBaDrFpJoEOelyRsuxV+EzY4c8J5o/Qhm+lqhm2iYWUl/T3zf7vhONBD968K190d7co1I2lucOQ==",
       "path": "protobuf-net/2.3.7",
       "hashPath": "protobuf-net.2.3.7.nupkg.sha512"
     },
     "Refit/4.6.58": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kgbnL3Y625PIs2KNpk/cag4m7uVNwKByofrIEIaMV0Bzpjbu+azKug8BCRXCvDvuWJw7n+QIcQohyIdGWq3riQ==",
+      "sha512": "sha512-bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
       "path": "refit/4.6.58",
       "hashPath": "refit.4.6.58.nupkg.sha512"
     },
     "Reflect.Extent/1.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zXOFMzBk6uyKIptH+bTHidrp+5n3O4mElv8neKc/W6ki5mdsOd/bMtaozt7eoxkyUTTP8KtsPT9LJSlhqRJ/qw==",
+      "sha512": "sha512-mOCtVVfJfCAFZnDHG/y1jiQIvDlxz3/l8JGz43kvdyKWl0ryls7f919YCiUylWS7z5jO3sYetWr4OQ9oarONuQ==",
       "path": "reflect.extent/1.0.7",
       "hashPath": "reflect.extent.1.0.7.nupkg.sha512"
     },
     "Reinterpret.Net/2.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+9EZ63CVT7SG8dHE1M0vVuld+stR++DvBo7kqeU9sVOy4q394fHFK3bSxpjLJz0/QhHaDO35kLlsm1FbhsrZ4A==",
+      "sha512": "sha512-LLyLhqrYx4ouBa5/KT2kVUiRU1GkwruI6/MMXw8nMu0KBun5KDrNPkXWwAacetVFB2AilcUgnjWGxSUz5VaSiA==",
       "path": "reinterpret.net/2.0.7",
       "hashPath": "reinterpret.net.2.0.7.nupkg.sha512"
     },
@@ -1897,21 +1898,21 @@
     "SceneJect.Common/3.0.31": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tGSyf39NtsfwU9lPIBv2MDvEx/ftHgPIfzRyrKJnd3/PFr7cLJsWjYi60lqxNLvY6gIjnk3or9VaZKClTJUbtQ==",
+      "sha512": "sha512-hok1189nFyMHb1Z6K2rQAY/u1CfwKRC9HR8k9Z+Y7Jhu2FlyEBdJQt0h8Fc0PzgXrQ3zrMcQ1tIm/ZDeT1Wc1Q==",
       "path": "sceneject.common/3.0.31",
       "hashPath": "sceneject.common.3.0.31.nupkg.sha512"
     },
     "SceneJect.Editor/3.0.31": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VBdMWKK2gccSFwui2M9xLcEZpXAn4AzBuJ/KqDcA540J+2MvCv509ABN4F7LA9BGpVAEOHa7PqjJ/C+R4FSqqQ==",
+      "sha512": "sha512-dnkJ/Wjf4kV4bpOv9nVUzIQuJoyi1gMbbhGMP7lf3gnOv4cZjP+ZqDIb9kNdsuN22I7hCzxsdcMdcRqTd9HOPQ==",
       "path": "sceneject.editor/3.0.31",
       "hashPath": "sceneject.editor.3.0.31.nupkg.sha512"
     },
     "SceneJect.Metadata/3.0.31": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Yi1CoYlunHBE1sjs0pjAY+NHJRdjIZwT6z0SurikWB1zZgCmDYoDhf2xdKxMCuk7iHqIHjLP8Ag6FYx2o/n50Q==",
+      "sha512": "sha512-sBOxKQswxu+AKA7MVHsEEbsyU8m6PUbWXnAr8rT6EJussV32xtUhzMmmGVjTlstdYRpZ7AuUpylWSjIHU1vv3g==",
       "path": "sceneject.metadata/3.0.31",
       "hashPath": "sceneject.metadata.3.0.31.nupkg.sha512"
     },
@@ -1932,7 +1933,7 @@
     "System.Collections.Immutable/1.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T5XGQlcHhEO75Qx38GGCUDPdk4n/7yrRmTgy4yczzJV8alPHaxPU55TBC2UFrkQ42bu34sZPfK0dU+nWZUOEJA==",
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
       "path": "system.collections.immutable/1.5.0",
       "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
     },
@@ -1960,7 +1961,7 @@
     "System.ComponentModel.Annotations/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-f1ApUHGWq/lJC8PZE7JqbA3tiY7ZngZQO2mbYfCG0JlQVVUqqmVMAy0fMvAwEuG639M47ELdP6PQxc5OIo6i6A==",
+      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
       "path": "system.componentmodel.annotations/4.5.0",
       "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
     },
@@ -2058,14 +2059,14 @@
     "System.Memory/4.5.0-preview1-26216-02": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rjdSryaHscun6sbvg323thwePmj2WGFw4mnyt1h7VOnuFDmAqKOQKhbxPA+p/LB8lqIQVIo4RJb4QJEDf0RMkQ==",
+      "sha512": "sha512-/qkNiTfseQ35guuSKxqw6cjEYnh+ijwI941QS5669VtTSSXOoyHWUO6JARIvSQ+A2yYFVdKEvTkKrMfaqdyOaw==",
       "path": "system.memory/4.5.0-preview1-26216-02",
       "hashPath": "system.memory.4.5.0-preview1-26216-02.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0-preview1-26216-02": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oW45oX6Vn5YmtakFD/WeucDxMoJq+LQ2wHFF2VnY1b7xKIg/LsuCuV4rTpkRvBSEj3gOV+YsjBdwtkOAvD/nZQ==",
+      "sha512": "sha512-FGIOma5l5mVHfnG8Ry5k3WqjWeDGFp1381xGpqwyUBWLs6kzm9Jbss1dUIRoOG4SU55nC0/28toJcq1sYfxPRw==",
       "path": "system.numerics.vectors/4.5.0-preview1-26216-02",
       "hashPath": "system.numerics.vectors.4.5.0-preview1-26216-02.nupkg.sha512"
     },
@@ -2142,7 +2143,7 @@
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9r+hFzL5qRJfAzR6AuccmYYtxTneKJTr+9aSf+A2G5EZloSG3FsAUZBOJMAAhNnhfP6mwCGpUwzTjaOjv4b5FA==",
+      "sha512": "sha512-Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
     },
@@ -2240,7 +2241,7 @@
     "Unitysync.Async/1.0.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zLjf4VZxZ44V+kcmqx8VT30m3gscP81mW7tR5oHgbiRZNXeGcdBCBtiOy8Faep+t+LWrprtJD3L33sIJP0Gmyg==",
+      "sha512": "sha512-SqVIWVdhRogoqoobdknDTgHPpwf/3doHivFVNKdcRVziczWS72tZ/q/exD7ftiO9ZqikS0ccOrLmpfayTMkMqQ==",
       "path": "unitysync.async/1.0.15",
       "hashPath": "unitysync.async.1.0.15.nupkg.sha512"
     },
