@@ -1304,10 +1304,22 @@
           "GladMMO.Client.Authentication.dll": {}
         }
       },
+      "GladMMO.Client.CharacterService/1.0.0": {
+        "dependencies": {
+          "GladMMO.Client.Common": "1.0.0",
+          "GladMMO.Models.GameServer": "1.0.0",
+          "Refit": "4.6.58"
+        },
+        "runtime": {
+          "GladMMO.Client.CharacterService.dll": {}
+        }
+      },
       "GladMMO.Client.Common/1.0.0": {
         "dependencies": {
           "Common.Logging": "3.4.1",
           "FluentValidation": "7.6.103",
+          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
+          "GladMMO.Common": "1.0.0",
           "Refit": "4.6.58",
           "SceneJect.Metadata": "3.0.31",
           "System.ComponentModel.Annotations": "4.5.0"
@@ -1331,7 +1343,9 @@
           "Autofac.Extensions.DependencyInjection": "4.2.2",
           "FreecraftCore.Packet.Game": "4.0.10",
           "GladMMO.Client.Authentication": "1.0.0",
+          "GladMMO.Client.CharacterService": "1.0.0",
           "GladMMO.Client.Common": "1.0.0",
+          "GladMMO.Client.NameQueryService": "1.0.0",
           "GladMMO.Client.ServerSelection": "1.0.0",
           "GladMMO.Client.ServiceDiscovery": "1.0.0",
           "GladMMO.Common": "1.0.0",
@@ -1353,10 +1367,22 @@
           "SceneJect.Metadata": "3.0.31",
           "System.Collections.Immutable": "1.5.0",
           "Unitysync.Async": "1.0.15",
-          "UnityEngine": "0.0.0.0"
+          "UnityEngine": "0.0.0.0",
+          "UnityEngine.UI": "1.0.0.0"
         },
         "runtime": {
           "GladMMO.Client.Game.dll": {}
+        }
+      },
+      "GladMMO.Client.NameQueryService/1.0.0": {
+        "dependencies": {
+          "GladMMO.Client.Common": "1.0.0",
+          "GladMMO.Models.GameServer": "1.0.0",
+          "Nito.AsyncEx": "5.0.0-pre-05",
+          "Refit": "4.6.58"
+        },
+        "runtime": {
+          "GladMMO.Client.NameQueryService.dll": {}
         }
       },
       "GladMMO.Client.ServerSelection/1.0.0": {
@@ -1384,6 +1410,7 @@
           "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
           "Generic.Math": "1.0.2",
           "Newtonsoft.Json": "12.0.1",
+          "Refit": "4.6.58",
           "Reinterpret.Net": "2.0.7",
           "protobuf-net": "2.3.7"
         },
@@ -1412,6 +1439,15 @@
         },
         "runtime": {
           "GladMMO.Models.Common.dll": {}
+        }
+      },
+      "GladMMO.Models.GameServer/1.0.0": {
+        "dependencies": {
+          "GladMMO.Models.Common": "1.0.0",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "GladMMO.Models.GameServer.dll": {}
         }
       },
       "GladMMO.Models.ServerSelection/1.0.0": {
@@ -1453,6 +1489,9 @@
         }
       },
       "GladMMO.Social.Common/1.0.0": {
+        "dependencies": {
+          "GladMMO.Models.Social": "1.0.0"
+        },
         "runtime": {
           "GladMMO.Social.Common.dll": {}
         }
@@ -1484,6 +1523,14 @@
           "UnityEngine.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.UI.Reference/1.0.0.0": {
+        "runtime": {
+          "UnityEngine.UI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -2250,6 +2297,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "GladMMO.Client.CharacterService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GladMMO.Client.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2261,6 +2313,11 @@
       "sha512": ""
     },
     "GladMMO.Client.Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GladMMO.Client.NameQueryService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2286,6 +2343,11 @@
       "sha512": ""
     },
     "GladMMO.Models.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GladMMO.Models.GameServer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2326,6 +2388,11 @@
       "sha512": ""
     },
     "UnityEngine.Reference/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.UI.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
