@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "e528e34d79a8e646175618c213d06feb6a8b8824"
+    "signature": "da9736e60a69eaae50bc7bc009c7eaf5b62d2707"
   },
   "compilationOptions": {},
   "targets": {
@@ -45,26 +45,6 @@
           }
         }
       },
-      "Castle.Core/4.3.1": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.3",
-          "System.Collections.Specialized": "4.3.0",
-          "System.ComponentModel": "4.3.0",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.TraceSource": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.5/Castle.Core.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.3.1.0"
-          }
-        }
-      },
       "Common.Logging/3.4.1": {
         "dependencies": {
           "Common.Logging.Core": "3.4.1",
@@ -94,14 +74,6 @@
           }
         }
       },
-      "DotNetZip/1.11.0": {
-        "runtime": {
-          "lib/net20/DotNetZip.dll": {
-            "assemblyVersion": "1.11.0.0",
-            "fileVersion": "1.11.0.0"
-          }
-        }
-      },
       "Fasterflect.Netstandard/1.0.9": {
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.3.0"
@@ -123,206 +95,6 @@
           "lib/netstandard2.0/FluentValidation.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.6.103.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common.Addon/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.API.Common": "4.0.10",
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.Addon.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common.Auth/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.API.Common": "4.0.10",
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.Auth.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common.Character/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.Character.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common.Chat/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.Chat.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common.Core/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.API.Common": "4.0.10",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
-          "FreecraftCore.API.Common.Movement": "4.0.10",
-          "FreecraftCore.Serializer.API": "3.0.38",
-          "FreecraftCore.Serializer.Metadata": "3.0.38",
-          "Reinterpret.Net": "2.0.7"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common.Entity.Identity/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.Serializer.API": "3.0.38",
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.Entity.Identity.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common.Movement/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.Movement.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.API.Common.Warden/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.API.Common.Warden.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.Packet.Common/4.0.10": {
-        "dependencies": {
-          "FreecraftCore.API.Common": "4.0.10",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
-          "FreecraftCore.Serializer.Metadata": "3.0.38"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.Packet.Common.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.Packet.Game/4.0.10": {
-        "dependencies": {
-          "Castle.Core": "4.3.1",
-          "FreecraftCore.API.Common.Addon": "4.0.10",
-          "FreecraftCore.API.Common.Auth": "4.0.10",
-          "FreecraftCore.API.Common.Character": "4.0.10",
-          "FreecraftCore.API.Common.Chat": "4.0.10",
-          "FreecraftCore.API.Common.Core": "4.0.10",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
-          "FreecraftCore.API.Common.Movement": "4.0.10",
-          "FreecraftCore.API.Common.Warden": "4.0.10",
-          "FreecraftCore.Packet.Common": "4.0.10",
-          "FreecraftCore.Serializer.Metadata": "3.0.38",
-          "GladNet3.Common.API": "3.0.46",
-          "System.Reflection.Emit.ILGeneration": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.Packet.Game.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.Serializer/3.0.38": {
-        "dependencies": {
-          "DotNetZip": "1.11.0",
-          "FreecraftCore.Serializer.API": "3.0.38",
-          "FreecraftCore.Serializer.Metadata": "3.0.38",
-          "FreecraftCore.Serializer.Stream": "3.0.38",
-          "Generic.Math": "1.0.2",
-          "JetBrains.Annotations": "11.1.0",
-          "Reflect.Extent": "1.0.7",
-          "Reinterpret.Net": "2.0.7",
-          "System.Memory": "4.5.0-preview1-26216-02",
-          "System.Reflection.Emit.Lightweight": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.Serializer.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.Serializer.API/3.0.38": {
-        "dependencies": {
-          "FreecraftCore.Serializer.Stream": "3.0.38",
-          "JetBrains.Annotations": "11.1.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.Serializer.API.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.Serializer.Metadata/3.0.38": {
-        "dependencies": {
-          "JetBrains.Annotations": "11.1.0",
-          "NETStandard.Library": "2.0.3"
-        },
-        "runtime": {
-          "lib/netstandard1.0/FreecraftCore.Serializer.Metadata.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FreecraftCore.Serializer.Stream/3.0.38": {
-        "dependencies": {
-          "JetBrains.Annotations": "11.1.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FreecraftCore.Serializer.Stream.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -432,18 +204,6 @@
           }
         }
       },
-      "GladNet3.Serializer.FreecraftCore/3.0.46": {
-        "dependencies": {
-          "FreecraftCore.Serializer": "3.0.38",
-          "GladNet3.Serializer.API": "3.0.46"
-        },
-        "runtime": {
-          "lib/netstandard2.0/GladNet3.Serializer.FreecraftCore.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "GladNet3.Serializer.ProtobufNet/3.0.46": {
         "dependencies": {
           "GladNet3.Serializer.API": "3.0.46",
@@ -472,11 +232,11 @@
         "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
+          "System.Dynamic.Runtime": "4.0.11",
           "System.Globalization": "4.3.0",
           "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.ObjectModel": "4.3.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.ObjectModel": "4.0.12",
           "System.Reflection": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
@@ -652,17 +412,6 @@
           }
         }
       },
-      "Reflect.Extent/1.0.7": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.3"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Reflect.Extent.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Reinterpret.Net/2.0.7": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.5.1"
@@ -672,12 +421,6 @@
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
-        }
-      },
-      "runtime.native.System/4.3.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
       "SceneJect.Common/3.0.31": {
@@ -747,39 +490,6 @@
           }
         }
       },
-      "System.Collections.NonGeneric/4.3.0": {
-        "dependencies": {
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.24705.1"
-          }
-        }
-      },
-      "System.Collections.Specialized/4.3.0": {
-        "dependencies": {
-          "System.Collections.NonGeneric": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Globalization.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Collections.Specialized.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.24705.1"
-          }
-        }
-      },
       "System.ComponentModel/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -812,49 +522,11 @@
           }
         }
       },
-      "System.ComponentModel.TypeConverter/4.3.0": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Collections.NonGeneric": "4.3.0",
-          "System.Collections.Specialized": "4.3.0",
-          "System.ComponentModel": "4.3.0",
-          "System.ComponentModel.Primitives": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {
-            "assemblyVersion": "4.1.1.0",
-            "fileVersion": "4.6.24705.1"
-          }
-        }
-      },
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-        }
-      },
-      "System.Diagnostics.TraceSource/4.3.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "runtime.native.System": "4.3.0"
         }
       },
       "System.Diagnostics.Tracing/4.3.0": {
@@ -864,13 +536,14 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Dynamic.Runtime/4.3.0": {
+      "System.Dynamic.Runtime/4.0.11": {
         "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
           "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.ObjectModel": "4.3.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.ObjectModel": "4.0.12",
           "System.Reflection": "4.3.0",
           "System.Reflection.Emit": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
@@ -883,8 +556,8 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Dynamic.Runtime.dll": {
-            "assemblyVersion": "4.0.12.0",
-            "fileVersion": "4.6.24705.1"
+            "assemblyVersion": "4.0.11.0",
+            "fileVersion": "1.0.24212.1"
           }
         }
       },
@@ -893,16 +566,6 @@
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-        }
-      },
-      "System.Globalization.Extensions/4.3.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0"
         }
       },
       "System.IO/4.3.0": {
@@ -952,14 +615,14 @@
           }
         }
       },
-      "System.Linq.Expressions/4.3.0": {
+      "System.Linq.Expressions/4.1.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
           "System.Linq": "4.3.0",
-          "System.ObjectModel": "4.3.0",
+          "System.ObjectModel": "4.0.12",
           "System.Reflection": "4.3.0",
           "System.Reflection.Emit": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
@@ -974,32 +637,12 @@
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.Expressions.dll": {
-            "assemblyVersion": "4.1.1.0",
-            "fileVersion": "4.6.24705.1"
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
           }
         }
       },
-      "System.Memory/4.5.0-preview1-26216-02": {
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0-preview1-26216-02",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "4.6.26216.2"
-          }
-        }
-      },
-      "System.Numerics.Vectors/4.5.0-preview1-26216-02": {
-        "runtime": {
-          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
-            "assemblyVersion": "4.1.4.0",
-            "fileVersion": "4.6.26216.2"
-          }
-        }
-      },
-      "System.ObjectModel/4.3.0": {
+      "System.ObjectModel/4.0.12": {
         "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
@@ -1009,8 +652,8 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.ObjectModel.dll": {
-            "assemblyVersion": "4.0.13.0",
-            "fileVersion": "4.6.24705.1"
+            "assemblyVersion": "4.0.12.0",
+            "fileVersion": "1.0.24212.1"
           }
         }
       },
@@ -1318,7 +961,6 @@
         "dependencies": {
           "Common.Logging": "3.4.1",
           "FluentValidation": "7.6.103",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
           "GladMMO.Common": "1.0.0",
           "Refit": "4.6.58",
           "SceneJect.Metadata": "3.0.31",
@@ -1341,7 +983,6 @@
       "GladMMO.Client.Game/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "4.2.2",
-          "FreecraftCore.Packet.Game": "4.0.10",
           "GladMMO.Client.Authentication": "1.0.0",
           "GladMMO.Client.CharacterService": "1.0.0",
           "GladMMO.Client.Common": "1.0.0",
@@ -1357,7 +998,6 @@
           "GladNet3.Client.API": "3.0.46",
           "GladNet3.Client.DotNetTcpClient": "3.0.46",
           "GladNet3.Handler.API": "3.0.46",
-          "GladNet3.Serializer.FreecraftCore": "3.0.46",
           "GladNet3.Serializer.ProtobufNet": "3.0.46",
           "Glader.Essentials.Unity": "0.0.12",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
@@ -1407,7 +1047,6 @@
       "GladMMO.Common/1.0.0": {
         "dependencies": {
           "Common.Logging": "3.4.1",
-          "FreecraftCore.API.Common.Entity.Identity": "4.0.10",
           "Generic.Math": "1.0.2",
           "Newtonsoft.Json": "12.0.1",
           "Refit": "4.6.58",
@@ -1488,6 +1127,16 @@
           "GladMMO.Network.Common.dll": {}
         }
       },
+      "GladMMO.Payloads.ZoneServer/1.0.0": {
+        "dependencies": {
+          "GladMMO.Models.Common": "1.0.0",
+          "GladMMO.Network.Common": "1.0.0",
+          "protobuf-net": "2.3.7"
+        },
+        "runtime": {
+          "GladMMO.Payloads.ZoneServer.dll": {}
+        }
+      },
       "GladMMO.Social.Common/1.0.0": {
         "dependencies": {
           "GladMMO.Models.Social": "1.0.0"
@@ -1500,7 +1149,6 @@
         "dependencies": {
           "Autofac": "4.8.1",
           "Common.Logging": "3.4.1",
-          "FreecraftCore.API.Common": "4.0.10",
           "GladMMO.Network.Common": "1.0.0",
           "SceneJect.Metadata": "3.0.31"
         },
@@ -1511,6 +1159,7 @@
       "GladMMO.ZoneServer.Common/1.0.0": {
         "dependencies": {
           "GladMMO.Network.Common": "1.0.0",
+          "GladMMO.Payloads.ZoneServer": "1.0.0",
           "GladNet3.Handler.API": "3.0.46",
           "SceneJect.Common": "3.0.31"
         },
@@ -1564,13 +1213,6 @@
       "path": "autofac.extensions.dependencyinjection/4.2.2",
       "hashPath": "autofac.extensions.dependencyinjection.4.2.2.nupkg.sha512"
     },
-    "Castle.Core/4.3.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8Y/eTr6GTElAGV7eAmJuhfLhGdFpNvaNrQ9UQYDScziLmX+/BLGM+9eQr0IcdNDcPN0ADmbtwT6MgecGKy4obw==",
-      "path": "castle.core/4.3.1",
-      "hashPath": "castle.core.4.3.1.nupkg.sha512"
-    },
     "Common.Logging/3.4.1": {
       "type": "package",
       "serviceable": true,
@@ -1585,13 +1227,6 @@
       "path": "common.logging.core/3.4.1",
       "hashPath": "common.logging.core.3.4.1.nupkg.sha512"
     },
-    "DotNetZip/1.11.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mwIUVhfuW9dJj4QEauDhVSf++pXs+IaILLwDUndyIbIBzwGE6RyoAGGDCuL6Wb3bDFSQW5Lh0mJDMkkZVVfJWQ==",
-      "path": "dotnetzip/1.11.0",
-      "hashPath": "dotnetzip.1.11.0.nupkg.sha512"
-    },
     "Fasterflect.Netstandard/1.0.9": {
       "type": "package",
       "serviceable": true,
@@ -1605,111 +1240,6 @@
       "sha512": "sha512-QmMkxUgd97IpWW+JQTeSeieqQkkUyqJEtJy+XchyYwF3AeKGo4eqU67erM33BifpF1BOcwGGuWyi2r88EZvDqA==",
       "path": "fluentvalidation/7.6.103",
       "hashPath": "fluentvalidation.7.6.103.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vlIKaK/J15xLv024Ike9On8tIYsaxIMz9Ro0JTKDwVvJ22LbZUw3kHl4qdx4VxYq+disgg+3bNtIve63NoeIfQ==",
-      "path": "freecraftcore.api.common/4.0.10",
-      "hashPath": "freecraftcore.api.common.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common.Addon/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-GhSb68mMOYD8FMTKfrztHizPHVf2kMgV0MC9ep2XiliE4rghEK27qrVUC10OO7cpjPdja5Qxs6TD8g4L7Kw7Ng==",
-      "path": "freecraftcore.api.common.addon/4.0.10",
-      "hashPath": "freecraftcore.api.common.addon.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common.Auth/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fD7sHFUys+xfHdKkrV5gV59q1j3OXsgSBr2e6Qtt5slRSiLmYQE69+vgeys5aqBGCz/HQczqNRpSDfQrZczVyg==",
-      "path": "freecraftcore.api.common.auth/4.0.10",
-      "hashPath": "freecraftcore.api.common.auth.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common.Character/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bAap7vCRxUVGxwJ+UNU9zyIGr7PKDRzW5W/aIq9160FN5Jq4zB/s0M+S1bE4KQ1j7OU2qg9p5ret2ZSs15oIjA==",
-      "path": "freecraftcore.api.common.character/4.0.10",
-      "hashPath": "freecraftcore.api.common.character.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common.Chat/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-P6UGjwdqi1qbG6wz5ApztFHhd1lPTPE6sbi1qnTrnbuSAYSdiWKhftYRj556IWquET4lO4sYscPl5RSlQ7/KQw==",
-      "path": "freecraftcore.api.common.chat/4.0.10",
-      "hashPath": "freecraftcore.api.common.chat.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common.Core/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Vl96yTo0rg3rCnTHDtFgK43asUBrXB1ZAHzdWGtvY8ICBGxvdXrC0euGQTQxMAsyCaABj0wzEOgBE0vUPT4Sfg==",
-      "path": "freecraftcore.api.common.core/4.0.10",
-      "hashPath": "freecraftcore.api.common.core.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common.Entity.Identity/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/MWEuth7Vgh2z3XBSP1dvh2vZn0fXf01PulzGgwwL0c23gxfZy/gbX1H2uXYX5TKSauilKbR5fM4YHBiAnWB6Q==",
-      "path": "freecraftcore.api.common.entity.identity/4.0.10",
-      "hashPath": "freecraftcore.api.common.entity.identity.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common.Movement/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qfO/3G+SL1NNc4Pg/FjUHgcAR0n2NBLhQ7dW+WEaLg8wKrOvIvenAMeI6MRmijh00ecWBnnet6JkNvKOY/rU5g==",
-      "path": "freecraftcore.api.common.movement/4.0.10",
-      "hashPath": "freecraftcore.api.common.movement.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.API.Common.Warden/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3569AK6haDkHEJ4COI/QdNkK99nRDCudZXHiBHbBvtxjjCSrilXhALmwP22NvGXuUCyijt1DTGaQMDRB+Xvbjg==",
-      "path": "freecraftcore.api.common.warden/4.0.10",
-      "hashPath": "freecraftcore.api.common.warden.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.Packet.Common/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-zQFXKQrtsmSek6Ppw73V0l9h3OiVZxh25Cikx5a7Fafv2Up1iSflnJJQ1Becy/HBDt09ZIRZxoZoG3d2te3qRg==",
-      "path": "freecraftcore.packet.common/4.0.10",
-      "hashPath": "freecraftcore.packet.common.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.Packet.Game/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Q4MEj5Tb4fLJeUgenOk06qnU5sno67ZEZFibUlhPg1Y2GuKFCL024QF2/B15I6gfn4K4HYkAYkAeL9YKzvEYiA==",
-      "path": "freecraftcore.packet.game/4.0.10",
-      "hashPath": "freecraftcore.packet.game.4.0.10.nupkg.sha512"
-    },
-    "FreecraftCore.Serializer/3.0.38": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IIIbKs8jMfRpl91WFDDXWSTSkFe8UN3rexMOQGAClvnQu4xLoxklp3aI/FFzbtXY14ZPGWkF4sO0rqP9QeWIRA==",
-      "path": "freecraftcore.serializer/3.0.38",
-      "hashPath": "freecraftcore.serializer.3.0.38.nupkg.sha512"
-    },
-    "FreecraftCore.Serializer.API/3.0.38": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Oql/DgTZLQik1y3bA9yylrRnXg4dIzZX+2pV0JV3Y7iSWXOPjUQfgmh8roS9XnyQmdtq51FR8GoAZ9nstBJ5XQ==",
-      "path": "freecraftcore.serializer.api/3.0.38",
-      "hashPath": "freecraftcore.serializer.api.3.0.38.nupkg.sha512"
-    },
-    "FreecraftCore.Serializer.Metadata/3.0.38": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-I6MCviR46uPy5jxmAgM8BWzGg3saAdwqKJWG0FZFgG9KfEDQKlI/XgblGNWkCfs0QFLlNOUJb03TQNpVVKAAAA==",
-      "path": "freecraftcore.serializer.metadata/3.0.38",
-      "hashPath": "freecraftcore.serializer.metadata.3.0.38.nupkg.sha512"
-    },
-    "FreecraftCore.Serializer.Stream/3.0.38": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-4Xd28GC6QH7763vtFiResQV3dLeSqypcAjNMn7ebTFXSrMBKMzhLjd9CXpspnAh9OXx5gt8CNXoqEEcfYMC05A==",
-      "path": "freecraftcore.serializer.stream/3.0.38",
-      "hashPath": "freecraftcore.serializer.stream.3.0.38.nupkg.sha512"
     },
     "Generic.Math/1.0.2": {
       "type": "package",
@@ -1773,13 +1303,6 @@
       "sha512": "sha512-3g3j3RV6RrBK5SWjTdk/Xcocvdjq7DVub2tbJeA8qZZaF2PmlGtMgekdK7hlromPvGJSyI5wv3VtdpyHgaPwHQ==",
       "path": "gladnet3.serializer.api/3.0.46",
       "hashPath": "gladnet3.serializer.api.3.0.46.nupkg.sha512"
-    },
-    "GladNet3.Serializer.FreecraftCore/3.0.46": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2YS883Z+lI5XF3jaPW+9+pDMu5HJzLjiMPRvnL0F41dQEL0wKwcja8BIunfuRvBhZbhpb64bNr/FszOZolSMWQ==",
-      "path": "gladnet3.serializer.freecraftcore/3.0.46",
-      "hashPath": "gladnet3.serializer.freecraftcore.3.0.46.nupkg.sha512"
     },
     "GladNet3.Serializer.ProtobufNet/3.0.46": {
       "type": "package",
@@ -1921,26 +1444,12 @@
       "path": "refit/4.6.58",
       "hashPath": "refit.4.6.58.nupkg.sha512"
     },
-    "Reflect.Extent/1.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mOCtVVfJfCAFZnDHG/y1jiQIvDlxz3/l8JGz43kvdyKWl0ryls7f919YCiUylWS7z5jO3sYetWr4OQ9oarONuQ==",
-      "path": "reflect.extent/1.0.7",
-      "hashPath": "reflect.extent.1.0.7.nupkg.sha512"
-    },
     "Reinterpret.Net/2.0.7": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-LLyLhqrYx4ouBa5/KT2kVUiRU1GkwruI6/MMXw8nMu0KBun5KDrNPkXWwAacetVFB2AilcUgnjWGxSUz5VaSiA==",
       "path": "reinterpret.net/2.0.7",
       "hashPath": "reinterpret.net.2.0.7.nupkg.sha512"
-    },
-    "runtime.native.System/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
-      "path": "runtime.native.system/4.3.0",
-      "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
     },
     "SceneJect.Common/3.0.31": {
       "type": "package",
@@ -1984,20 +1493,6 @@
       "path": "system.collections.immutable/1.5.0",
       "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
     },
-    "System.Collections.NonGeneric/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
-      "path": "system.collections.nongeneric/4.3.0",
-      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
-    },
-    "System.Collections.Specialized/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
-      "path": "system.collections.specialized/4.3.0",
-      "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
-    },
     "System.ComponentModel/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2019,26 +1514,12 @@
       "path": "system.componentmodel.primitives/4.3.0",
       "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
     },
-    "System.ComponentModel.TypeConverter/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
-      "path": "system.componentmodel.typeconverter/4.3.0",
-      "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
-    },
     "System.Diagnostics.Debug/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
-    },
-    "System.Diagnostics.TraceSource/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
-      "path": "system.diagnostics.tracesource/4.3.0",
-      "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
     },
     "System.Diagnostics.Tracing/4.3.0": {
       "type": "package",
@@ -2047,12 +1528,12 @@
       "path": "system.diagnostics.tracing/4.3.0",
       "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
     },
-    "System.Dynamic.Runtime/4.3.0": {
+    "System.Dynamic.Runtime/4.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
-      "path": "system.dynamic.runtime/4.3.0",
-      "hashPath": "system.dynamic.runtime.4.3.0.nupkg.sha512"
+      "sha512": "sha512-db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "path": "system.dynamic.runtime/4.0.11",
+      "hashPath": "system.dynamic.runtime.4.0.11.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
@@ -2060,13 +1541,6 @@
       "sha512": "sha512-kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
       "path": "system.globalization/4.3.0",
       "hashPath": "system.globalization.4.3.0.nupkg.sha512"
-    },
-    "System.Globalization.Extensions/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FhKmdR6MPG+pxow6wGtNAWdZh7noIOpdD5TwQ3CprzgIE1bBBoim0vbR1+AWsWjQmU7zXHgQo4TWSP6lCeiWcQ==",
-      "path": "system.globalization.extensions/4.3.0",
-      "hashPath": "system.globalization.extensions.4.3.0.nupkg.sha512"
     },
     "System.IO/4.3.0": {
       "type": "package",
@@ -2096,33 +1570,19 @@
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
     },
-    "System.Linq.Expressions/4.3.0": {
+    "System.Linq.Expressions/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
-      "path": "system.linq.expressions/4.3.0",
-      "hashPath": "system.linq.expressions.4.3.0.nupkg.sha512"
+      "sha512": "sha512-I+y02iqkgmCAyfbqOmSDOgqdZQ5tTj80Akm5BPSS8EeB0VGWdy6X1KCoYe8Pk6pwDoAKZUOdLVxnTJcExiv5zw==",
+      "path": "system.linq.expressions/4.1.0",
+      "hashPath": "system.linq.expressions.4.1.0.nupkg.sha512"
     },
-    "System.Memory/4.5.0-preview1-26216-02": {
+    "System.ObjectModel/4.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/qkNiTfseQ35guuSKxqw6cjEYnh+ijwI941QS5669VtTSSXOoyHWUO6JARIvSQ+A2yYFVdKEvTkKrMfaqdyOaw==",
-      "path": "system.memory/4.5.0-preview1-26216-02",
-      "hashPath": "system.memory.4.5.0-preview1-26216-02.nupkg.sha512"
-    },
-    "System.Numerics.Vectors/4.5.0-preview1-26216-02": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FGIOma5l5mVHfnG8Ry5k3WqjWeDGFp1381xGpqwyUBWLs6kzm9Jbss1dUIRoOG4SU55nC0/28toJcq1sYfxPRw==",
-      "path": "system.numerics.vectors/4.5.0-preview1-26216-02",
-      "hashPath": "system.numerics.vectors.4.5.0-preview1-26216-02.nupkg.sha512"
-    },
-    "System.ObjectModel/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
-      "path": "system.objectmodel/4.3.0",
-      "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+      "sha512": "sha512-tAgJM1xt3ytyMoW4qn4wIqgJYm7L7TShRZG4+Q4Qsi2PCcj96pXN7nRywS9KkB3p/xDUjc2HSwP9SROyPYDYKQ==",
+      "path": "system.objectmodel/4.0.12",
+      "hashPath": "system.objectmodel.4.0.12.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
@@ -2368,6 +1828,11 @@
       "sha512": ""
     },
     "GladMMO.Network.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GladMMO.Payloads.ZoneServer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
