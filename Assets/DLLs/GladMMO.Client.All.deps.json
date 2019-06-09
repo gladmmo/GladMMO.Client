@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "da9736e60a69eaae50bc7bc009c7eaf5b62d2707"
+    "signature": "c912248a3e1f736048255eb359ebae6f2ae698c7"
   },
   "compilationOptions": {},
   "targets": {
@@ -109,7 +109,7 @@
           }
         }
       },
-      "Glader.Essentials.Common/0.0.12": {
+      "Glader.Essentials.Common/0.0.15": {
         "dependencies": {
           "Autofac": "4.8.1",
           "Common.Logging": "3.4.1"
@@ -121,11 +121,11 @@
           }
         }
       },
-      "Glader.Essentials.Unity/0.0.12": {
+      "Glader.Essentials.Unity/0.0.15": {
         "dependencies": {
           "Common.Logging": "3.4.1",
           "Generic.Math": "1.0.2",
-          "Glader.Essentials.Common": "0.0.12",
+          "Glader.Essentials.Common": "0.0.15",
           "SceneJect.Common": "3.0.31",
           "SceneJect.Metadata": "3.0.31",
           "Unitysync.Async": "1.0.15"
@@ -280,11 +280,11 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Newtonsoft.Json/12.0.1": {
+      "Newtonsoft.Json/12.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.1.22727"
+            "fileVersion": "12.0.2.23222"
           }
         }
       },
@@ -401,14 +401,14 @@
           }
         }
       },
-      "Refit/4.6.58": {
+      "Refit/4.6.107": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.1"
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Refit.dll": {
             "assemblyVersion": "4.6.0.0",
-            "fileVersion": "4.6.58.19393"
+            "fileVersion": "4.6.107.54550"
           }
         }
       },
@@ -941,7 +941,7 @@
         "dependencies": {
           "GladMMO.Client.Common": "1.0.0",
           "GladMMO.Models.Authentication": "1.0.0",
-          "Refit": "4.6.58"
+          "Refit": "4.6.107"
         },
         "runtime": {
           "GladMMO.Client.Authentication.dll": {}
@@ -951,7 +951,7 @@
         "dependencies": {
           "GladMMO.Client.Common": "1.0.0",
           "GladMMO.Models.GameServer": "1.0.0",
-          "Refit": "4.6.58"
+          "Refit": "4.6.107"
         },
         "runtime": {
           "GladMMO.Client.CharacterService.dll": {}
@@ -962,7 +962,7 @@
           "Common.Logging": "3.4.1",
           "FluentValidation": "7.6.103",
           "GladMMO.Common": "1.0.0",
-          "Refit": "4.6.58",
+          "Refit": "4.6.107",
           "SceneJect.Metadata": "3.0.31",
           "System.ComponentModel.Annotations": "4.5.0"
         },
@@ -970,10 +970,20 @@
           "GladMMO.Client.Common.dll": {}
         }
       },
+      "GladMMO.Client.ContentServer/1.0.0": {
+        "dependencies": {
+          "GladMMO.Client.Common": "1.0.0",
+          "GladMMO.Models.ContentServer": "1.0.0",
+          "Refit": "4.6.107"
+        },
+        "runtime": {
+          "GladMMO.Client.ContentServer.dll": {}
+        }
+      },
       "GladMMO.Client.Editor/1.0.0": {
         "dependencies": {
           "GladMMO.Client.Game": "1.0.0",
-          "Glader.Essentials.Unity": "0.0.12",
+          "Glader.Essentials.Unity": "0.0.15",
           "UnityEditor": "0.0.0.0"
         },
         "runtime": {
@@ -986,11 +996,14 @@
           "GladMMO.Client.Authentication": "1.0.0",
           "GladMMO.Client.CharacterService": "1.0.0",
           "GladMMO.Client.Common": "1.0.0",
+          "GladMMO.Client.ContentServer": "1.0.0",
           "GladMMO.Client.NameQueryService": "1.0.0",
           "GladMMO.Client.ServerSelection": "1.0.0",
           "GladMMO.Client.ServiceDiscovery": "1.0.0",
+          "GladMMO.Client.ZoneService": "1.0.0",
           "GladMMO.Common": "1.0.0",
           "GladMMO.Models.Authentication": "1.0.0",
+          "GladMMO.Models.GameServer": "1.0.0",
           "GladMMO.Models.Social": "1.0.0",
           "GladMMO.Social.Common": "1.0.0",
           "GladMMO.Unity.Common": "1.0.0",
@@ -999,10 +1012,10 @@
           "GladNet3.Client.DotNetTcpClient": "3.0.46",
           "GladNet3.Handler.API": "3.0.46",
           "GladNet3.Serializer.ProtobufNet": "3.0.46",
-          "Glader.Essentials.Unity": "0.0.12",
+          "Glader.Essentials.Unity": "0.0.15",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Nito.AsyncEx": "5.0.0-pre-05",
-          "Refit": "4.6.58",
+          "Refit": "4.6.107",
           "SceneJect.Common": "3.0.31",
           "SceneJect.Metadata": "3.0.31",
           "System.Collections.Immutable": "1.5.0",
@@ -1019,7 +1032,7 @@
           "GladMMO.Client.Common": "1.0.0",
           "GladMMO.Models.GameServer": "1.0.0",
           "Nito.AsyncEx": "5.0.0-pre-05",
-          "Refit": "4.6.58"
+          "Refit": "4.6.107"
         },
         "runtime": {
           "GladMMO.Client.NameQueryService.dll": {}
@@ -1028,7 +1041,7 @@
       "GladMMO.Client.ServerSelection/1.0.0": {
         "dependencies": {
           "GladMMO.Models.ServerSelection": "1.0.0",
-          "Refit": "4.6.58"
+          "Refit": "4.6.107"
         },
         "runtime": {
           "GladMMO.Client.ServerSelection.dll": {}
@@ -1038,18 +1051,28 @@
         "dependencies": {
           "GladMMO.Client.Common": "1.0.0",
           "GladMMO.Models.ServiceDiscovery": "1.0.0",
-          "Refit": "4.6.58"
+          "Refit": "4.6.107"
         },
         "runtime": {
           "GladMMO.Client.ServiceDiscovery.dll": {}
+        }
+      },
+      "GladMMO.Client.ZoneService/1.0.0": {
+        "dependencies": {
+          "GladMMO.Client.Common": "1.0.0",
+          "GladMMO.Models.ServiceDiscovery": "1.0.0",
+          "Refit": "4.6.107"
+        },
+        "runtime": {
+          "GladMMO.Client.ZoneService.dll": {}
         }
       },
       "GladMMO.Common/1.0.0": {
         "dependencies": {
           "Common.Logging": "3.4.1",
           "Generic.Math": "1.0.2",
-          "Newtonsoft.Json": "12.0.1",
-          "Refit": "4.6.58",
+          "Newtonsoft.Json": "12.0.2",
+          "Refit": "4.6.107",
           "Reinterpret.Net": "2.0.7",
           "protobuf-net": "2.3.7"
         },
@@ -1061,8 +1084,8 @@
         "dependencies": {
           "GladMMO.Models.Common": "1.0.0",
           "JetBrains.Annotations": "11.1.0",
-          "Newtonsoft.Json": "12.0.1",
-          "Refit": "4.6.58",
+          "Newtonsoft.Json": "12.0.2",
+          "Refit": "4.6.107",
           "System.ComponentModel.Annotations": "4.5.0"
         },
         "runtime": {
@@ -1073,17 +1096,26 @@
         "dependencies": {
           "GladMMO.Common": "1.0.0",
           "JetBrains.Annotations": "11.1.0",
-          "Newtonsoft.Json": "12.0.1",
+          "Newtonsoft.Json": "12.0.2",
           "protobuf-net": "2.3.7"
         },
         "runtime": {
           "GladMMO.Models.Common.dll": {}
         }
       },
+      "GladMMO.Models.ContentServer/1.0.0": {
+        "dependencies": {
+          "GladMMO.Models.Common": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "GladMMO.Models.ContentServer.dll": {}
+        }
+      },
       "GladMMO.Models.GameServer/1.0.0": {
         "dependencies": {
           "GladMMO.Models.Common": "1.0.0",
-          "Newtonsoft.Json": "12.0.1"
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "GladMMO.Models.GameServer.dll": {}
@@ -1092,7 +1124,7 @@
       "GladMMO.Models.ServerSelection/1.0.0": {
         "dependencies": {
           "GladMMO.Models.Common": "1.0.0",
-          "Newtonsoft.Json": "12.0.1"
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "GladMMO.Models.ServerSelection.dll": {}
@@ -1101,7 +1133,7 @@
       "GladMMO.Models.ServiceDiscovery/1.0.0": {
         "dependencies": {
           "GladMMO.Models.Common": "1.0.0",
-          "Newtonsoft.Json": "12.0.1"
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "GladMMO.Models.ServiceDiscovery.dll": {}
@@ -1110,7 +1142,7 @@
       "GladMMO.Models.Social/1.0.0": {
         "dependencies": {
           "GladMMO.Models.Common": "1.0.0",
-          "Newtonsoft.Json": "12.0.1"
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "GladMMO.Models.Social.dll": {}
@@ -1119,8 +1151,9 @@
       "GladMMO.Network.Common/1.0.0": {
         "dependencies": {
           "GladMMO.Common": "1.0.0",
+          "GladNet3.Client.API": "3.0.46",
           "GladNet3.Common.API": "3.0.46",
-          "Glader.Essentials.Common": "0.0.12",
+          "Glader.Essentials.Common": "0.0.15",
           "protobuf-net": "2.3.7"
         },
         "runtime": {
@@ -1248,19 +1281,19 @@
       "path": "generic.math/1.0.2",
       "hashPath": "generic.math.1.0.2.nupkg.sha512"
     },
-    "Glader.Essentials.Common/0.0.12": {
+    "Glader.Essentials.Common/0.0.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ntpoRaqDkIL9AJCWZa0QAqBTzBNViBFBlF4KqFfRQIduHtJXFKaCPwHmwprMUmSwcjlqPWRatbF/JGbWcMt/PA==",
-      "path": "glader.essentials.common/0.0.12",
-      "hashPath": "glader.essentials.common.0.0.12.nupkg.sha512"
+      "sha512": "sha512-ocbMdDwO8DJyHwaePA97asJBzE7DFAtBPklFzTqBXgpHfvtYTrAa4R3MjO1iu06YjCLWL6yp6+uoO8NTuzxLog==",
+      "path": "glader.essentials.common/0.0.15",
+      "hashPath": "glader.essentials.common.0.0.15.nupkg.sha512"
     },
-    "Glader.Essentials.Unity/0.0.12": {
+    "Glader.Essentials.Unity/0.0.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YbfukwM8FexsmywtL8ezuQPpk79x82jwNnN+vvptMrJKwz0eOmn8Kb5NArzRpuPcpXvT36ON5Vx0v42XVMgfJQ==",
-      "path": "glader.essentials.unity/0.0.12",
-      "hashPath": "glader.essentials.unity.0.0.12.nupkg.sha512"
+      "sha512": "sha512-bKe7TBY9LUDu2+hnnJu4If1duoJgpJn3YjkOMgGFdEvl5/45pUwjCoKDqk49MRY4HkLrabH94oEkAZKGEfqx+g==",
+      "path": "glader.essentials.unity/0.0.15",
+      "hashPath": "glader.essentials.unity.0.0.15.nupkg.sha512"
     },
     "GladNet3.Client.API/3.0.46": {
       "type": "package",
@@ -1360,12 +1393,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Newtonsoft.Json/12.0.1": {
+    "Newtonsoft.Json/12.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
-      "path": "newtonsoft.json/12.0.1",
-      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
     "Nito.AsyncEx/5.0.0-pre-05": {
       "type": "package",
@@ -1437,12 +1470,12 @@
       "path": "protobuf-net/2.3.7",
       "hashPath": "protobuf-net.2.3.7.nupkg.sha512"
     },
-    "Refit/4.6.58": {
+    "Refit/4.6.107": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
-      "path": "refit/4.6.58",
-      "hashPath": "refit.4.6.58.nupkg.sha512"
+      "sha512": "sha512-sBIYAMYMJYSWzl5Vt0FjGuaEFIaAG9y7O8rXvjzpyQCYLKe22Sk9LoQ50K7Jpj/3no+9eNUQSwmKpTkq7+tKUw==",
+      "path": "refit/4.6.107",
+      "hashPath": "refit.4.6.107.nupkg.sha512"
     },
     "Reinterpret.Net/2.0.7": {
       "type": "package",
@@ -1767,6 +1800,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "GladMMO.Client.ContentServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GladMMO.Client.Editor/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1792,6 +1830,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "GladMMO.Client.ZoneService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GladMMO.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1803,6 +1846,11 @@
       "sha512": ""
     },
     "GladMMO.Models.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GladMMO.Models.ContentServer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
