@@ -9,6 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "GladMMO.Client.All/1.0.0": {
         "dependencies": {
+          "FinalIK.Core": "1.0.0",
+          "FinalIK.Editor": "1.0.0",
+          "FinalIK.Models": "1.0.0",
           "GladMMO.Client.Editor": "1.0.0",
           "GladMMO.Client.Game": "1.0.0",
           "GladMMO.Client.ServerSelection": "1.0.0",
@@ -937,6 +940,23 @@
           }
         }
       },
+      "FinalIK.Core/1.0.0": {
+        "dependencies": {
+          "FinalIK.Models": "1.0.0"
+        },
+        "runtime": {
+          "FinalIK.Core.dll": {}
+        }
+      },
+      "FinalIK.Editor/1.0.0": {
+        "dependencies": {
+          "FinalIK.Core": "1.0.0",
+          "UnityEditor": "0.0.0.0"
+        },
+        "runtime": {
+          "FinalIK.Editor.dll": {}
+        }
+      },
       "FinalIK.Models/1.0.0": {
         "runtime": {
           "FinalIK.Models.dll": {}
@@ -988,8 +1008,7 @@
       "GladMMO.Client.Editor/1.0.0": {
         "dependencies": {
           "GladMMO.Client.Game": "1.0.0",
-          "Glader.Essentials.Unity": "0.0.15",
-          "UnityEditor": "0.0.0.0"
+          "Glader.Essentials.Unity": "0.0.15"
         },
         "runtime": {
           "GladMMO.Client.Editor.dll": {}
@@ -1798,6 +1817,16 @@
       "sha512": "sha512-SqVIWVdhRogoqoobdknDTgHPpwf/3doHivFVNKdcRVziczWS72tZ/q/exD7ftiO9ZqikS0ccOrLmpfayTMkMqQ==",
       "path": "unitysync.async/1.0.15",
       "hashPath": "unitysync.async.1.0.15.nupkg.sha512"
+    },
+    "FinalIK.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinalIK.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "FinalIK.Models/1.0.0": {
       "type": "project",
