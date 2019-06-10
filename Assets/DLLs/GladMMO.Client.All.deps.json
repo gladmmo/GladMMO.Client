@@ -937,6 +937,11 @@
           }
         }
       },
+      "FinalIK.Models/1.0.0": {
+        "runtime": {
+          "FinalIK.Models.dll": {}
+        }
+      },
       "GladMMO.Client.Authentication/1.0.0": {
         "dependencies": {
           "GladMMO.Client.Common": "1.0.0",
@@ -1002,6 +1007,7 @@
           "GladMMO.Client.ServiceDiscovery": "1.0.0",
           "GladMMO.Client.ZoneService": "1.0.0",
           "GladMMO.Common": "1.0.0",
+          "GladMMO.Common.SDK": "1.0.0",
           "GladMMO.Models.Authentication": "1.0.0",
           "GladMMO.Models.GameServer": "1.0.0",
           "GladMMO.Models.Social": "1.0.0",
@@ -1078,6 +1084,14 @@
         },
         "runtime": {
           "GladMMO.Common.dll": {}
+        }
+      },
+      "GladMMO.Common.SDK/1.0.0": {
+        "dependencies": {
+          "FinalIK.Models": "1.0.0"
+        },
+        "runtime": {
+          "GladMMO.Common.SDK.dll": {}
         }
       },
       "GladMMO.Models.Authentication/1.0.0": {
@@ -1785,6 +1799,11 @@
       "path": "unitysync.async/1.0.15",
       "hashPath": "unitysync.async.1.0.15.nupkg.sha512"
     },
+    "FinalIK.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GladMMO.Client.Authentication/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1836,6 +1855,11 @@
       "sha512": ""
     },
     "GladMMO.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GladMMO.Common.SDK/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
