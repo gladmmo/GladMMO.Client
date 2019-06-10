@@ -34,3 +34,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Can't upload FinalIK assemblies
+[Aa]ssets/DLLs/FinalIK.Core.*
+[Aa]ssets/DLLs/FinalIK.Editor.*
+[Aa]ssets/DLLs/FinalIK.Custom.*
